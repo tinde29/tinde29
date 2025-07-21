@@ -82,36 +82,8 @@ GitHub Profile
   </table>
 </div>
 
-<style>
-  :root {
-    --bg-color: #ffffff;
-    --text-color: #000000;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg-color: #1a1a1a;
-      --text-color: #ffffff;
-    }
-  }
-
-  table {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  td {
-    width: 50%;
-    padding: 10px;
-  }
-
-  @media (max-width: 700px) {
-    td {
-      display: block;
-      width: 100%;
-    }
-  }
-</style>
+![](https://raw.githubusercontent.com/tinde29/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/tinde29/github-stats/master/generated/overview.svg#gh-light-mode-only)
 
 
 
