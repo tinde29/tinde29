@@ -82,36 +82,7 @@ GitHub Profile
   </table>
 </div>
 
-<style>
-  :root {
-    --bg-color: #ffffff;
-    --text-color: #000000;
-  }
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg-color: #1a1a1a;
-      --text-color: #ffffff;
-    }
-  }
-
-  table {
-    width: 100%;
-    max-width: 700px;
-  }
-
-  td {
-    width: 50%;
-    vertical-align: top;
-  }
-
-  @media (max-width: 600px) {
-    td {
-      width: 100%;
-      display: block;
-    }
-  }
-</style>
 
 <div align="center">
   <picture>
