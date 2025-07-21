@@ -23,28 +23,32 @@ GitHub Profile
 </div>
 
 
-<جدول><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <style>
     .icon-container {
-      display: flex; /* چیدمان افقی با Flexbox */
-      justify-content: center; /* وسط‌چین کردن آیکون‌ها */
+      display: flex; /* چیدمان افقی */
+      justify-content: center; /* وسط‌چین کردن */
       gap: 20px; /* فاصله بین آیکون‌ها */
       padding: 10px; /* فاصله داخلی کادر */
       border: 2px solid #ccc; /* کادر دور آیکون‌ها */
-      border-radius: 8px; /* گوشه‌های گرد (اختیاری) */
-      flex-wrap: wrap; /* در صورت کوچک بودن صفحه، آیکون‌ها به خط بعدی می‌روند */
+      border-radius: 8px; /* گوشه‌های گرد */
+      flex-wrap: wrap; /* در صورت کوچک بودن صفحه */
     }
 
     .icon-container td {
-      text-align: center; /* وسط‌چین کردن متن و آیکون */
-      width: 96px; /* عرض ثابت برای هر سلول */
+      text-align: center; /* وسط‌چین کردن آیکون */
+      width: 96px; /* عرض ثابت */
     }
 
     .icon-container img {
       width: 65px; /* عرض ثابت برای آیکون‌ها */
       height: 65px; /* ارتفاع ثابت برای آیکون‌ها */
+    }
+
+    .icon-container br, .icon-container td > a:not(:has(img)), .icon-container td > *:not(img) {
+      display: none; /* مخفی کردن متن و تگ br */
     }
   </style>
 </head>
