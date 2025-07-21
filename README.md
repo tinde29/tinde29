@@ -59,6 +59,34 @@ GitHub Profile
   </tr>
 </table>
 
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <!-- کادر اول: مثلاً GitHub Stats -->
+  <div style="background: var(--bg-color); color: var(--text-color); border-radius: 10px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3>📊 آمار گیت‌هاب</h3>
+    <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=transparent" alt="GitHub Stats" />
+  </div>
+  
+  <!-- کادر دوم: مثلاً Top Languages -->
+  <div style="background: var(--bg-color); color: var(--text-color); border-radius: 10px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3>💻 زبان‌های برتر</h3>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=transparent" alt="Top Languages" />
+  </div>
+</div>
+
+<style>
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: #1a1a1a;
+      --text-color: #ffffff;
+    }
+  }
+</style>
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/dark-theme.svg">
