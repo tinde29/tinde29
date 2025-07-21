@@ -22,51 +22,36 @@ GitHub Profile
   <img height="400" src="images/238355349-7d484dc9-68a9-4ee6-a767-aea59035c12d.gif" />
 </div>
 
-
-  </style>
-</head>
-<body>
-  <table class="icon-container">
-    <tr>
-      <td>
-        <a href="#macropower-tech">
-          <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="پایتون" />
-          <br>پایتون
-        </a>
-      </td>
-      <td>
-        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="جاوااسکریپت" />
-        <br>جاوااسکریپت
-      </td>
-      <td>
-        <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="گیت‌هاب" />
-        <br>گیت‌هاب
-      </td>
-      <td>
-        <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="رابط برنامه‌نویسی کاربردی (API)" />
-        <br>رابط برنامه‌نویسی کاربردی (API)
-      </td>
-      <td>
-        <img src="https://skillicons.dev/icons?i=gitlab" alt="گیت‌لب" />
-        <br>گیت‌لب
-      </td>
-      <td>
-        <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
-        <br>HTML
-      </td>
-      <td>
-        <img src="https://skillicons.dev/icons?i=css" alt="سی‌اس‌اس" />
-        <br>سی‌اس‌اس
-      </td>
-      <td>
-        <img src="https://skillicons.dev/icons?i=linux" alt="لینوکس" />
-        <br>لینوکس
-      </td>
-    </tr>
-  </table>
-</body>
-</html>
-      
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65" height="65" alt="پایتون" />
+      </a>
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/js-icon.svg" width="65" height="65" alt="جاوااسکریپت" />
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="گیت‌هاب" />
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="رابط برنامه‌نویسی کاربردی (API)" />
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=gitlab" width="65" height="65" alt="گیت‌لب" />
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=html" width="65" height="65" alt="HTML" />
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=css" width="65" height="65" alt="سی‌اس‌اس" />
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=linux" width="65" height="65" alt="لینوکس" />
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <picture>
