@@ -14,8 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<div align="center">
+  <img height="400" src="https://github.com/tinde29/tinde29/blob/main/images/Tindex.gif" />
+</div>
 
-GitHub Profile
 ## My Contribution Graphs
 
 <div align="center">
