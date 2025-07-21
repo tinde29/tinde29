@@ -59,33 +59,6 @@ GitHub Profile
   </tr>
 </table>
 
-<div style="overflow-x: auto; margin: 0 auto; max-width: 800px;">
-  <table style="border-collapse: collapse; width: 100%;">
-    <tr>
-      <td style="background: var(--bg-color); color: var(--text-color); border-radius: 10px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2); vertical-align: top;">
-        <h3>📊 آمار GitHub</h3>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=tinde29&show_icons=true&theme=radical">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=tinde29&show_icons=true&theme=github_light">
-          <img alt="آمار GitHub" src="https://github-readme-stats.vercel.app/api?username=tinde29&show_icons=true&theme=github_light" width="100%">
-        </picture>
-      </td>
-      <td style="background: var(--bg-color); color: var(--text-color); border-radius: 10px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2); vertical-align: top;">
-        <h3>💻 زبان‌های برتر</h3>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=tinde29&show_icons=true&theme=radical&layout=compact">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=tinde29&show_icons=true&theme=github_light&layout=compact">
-          <img alt="زبان‌های برتر" src="https://github-readme-stats.vercel.app/api/top-langs?username=tinde29&show_icons=true&theme=github_light&layout=compact" width="100%">
-        </picture>
-      </td>
-    </tr>
-  </table>
-</div>
-
-![](https://raw.githubusercontent.com/tinde29/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/tinde29/github-stats/master/generated/overview.svg#gh-light-mode-only)
-
-
 
 <div align="center">
   <picture>
