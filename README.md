@@ -19,6 +19,10 @@ GitHub Profile
 ## My Contribution Graphs
 
 <div align="center">
+  <img height="400" src="images/238355349-7d484dc9-68a9-4ee6-a767-aea59035c12d.gif" />
+</div>
+
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/dark-theme.svg">
     <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/light-theme.svg">
