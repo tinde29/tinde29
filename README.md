@@ -59,18 +59,27 @@ GitHub Profile
   </tr>
 </table>
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-  <!-- کادر اول: مثلاً GitHub Stats -->
-  <div style="background: var(--bg-color); color: var(--text-color); border-radius: 10px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3>📊 آمار گیت‌هاب</h3>
-    <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=transparent" alt="GitHub Stats" />
-  </div>
-  
-  <!-- کادر دوم: مثلاً Top Languages -->
-  <div style="background: var(--bg-color); color: var(--text-color); border-radius: 10px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3>💻 زبان‌های برتر</h3>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=transparent" alt="Top Languages" />
-  </div>
+<div style="overflow-x: auto;">
+  <table style="border-collapse: collapse; margin: 0 auto;">
+    <tr>
+      <td style="background: var(--bg-color); color: var(--text-color); border-radius: 10px; padding: 15px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>📊 آمار GitHub</h3>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=tinde29&show_icons=true&theme=radical">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=tinde29&show_icons=true&theme=github_light">
+          <img alt="آمار GitHub" src="https://github-readme-stats.vercel.app/api?username=tinde29&show_icons=true&theme=github_light" width="100%">
+        </picture>
+      </td>
+      <td style="background: var(--bg-color); color: var(--text-color); border-radius: 10px; padding: 15px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>💻 زبان‌های برتر</h3>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=tinde29&show_icons=true&theme=radical">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=tinde29&show_icons=true&theme=github_light">
+          <img alt="زبان‌های برتر" src="https://github-readme-stats.vercel.app/api/top-langs?username=tinde29&show_icons=true&theme=github_light" width="100%">
+        </picture>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <style>
@@ -83,6 +92,23 @@ GitHub Profile
     :root {
       --bg-color: #1a1a1a;
       --text-color: #ffffff;
+    }
+  }
+
+  table {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  td {
+    width: 50%;
+    vertical-align: top;
+  }
+
+  @media (max-width: 600px) {
+    td {
+      width: 100%;
+      display: block;
     }
   }
 </style>
