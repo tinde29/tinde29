@@ -51,7 +51,7 @@ GitHub Profile
       <img src="https://skillicons.dev/icons?i=linux" width="65" height="65" alt="لینوکس" />
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=worker" width="65" height="65" alt="worker" />
+      <img src="https://skillicons.dev/icons?i=workers" width="65" height="65" alt="workers" />
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=powershell" width="65" height="65" alt="powershell" />
