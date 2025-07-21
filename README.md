@@ -1,4 +1,4 @@
-## Hi there 👋
+
 
 <!--
 **tinde29/tinde29** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -18,7 +18,7 @@ Here are some ideas to get you started:
   <img height="400" src="https://github.com/tinde29/tinde29/blob/main/images/Tindex.gif" />
 </div>
 
-## My Contribution Graphs
+
 
 <div align="center">
   <img height="400" src="images/238355349-7d484dc9-68a9-4ee6-a767-aea59035c12d.gif" />
