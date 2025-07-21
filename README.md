@@ -59,6 +59,7 @@ GitHub Profile
   </tr>
 </table>
 
+src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tinde29" alt="tinde29" /></p>
 
 <div align="center">
   <picture>
