@@ -59,8 +59,7 @@ GitHub Profile
   </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/121772058/235020041-b5e18f91-db32-4539-a316-e7774dad4436.svg">
-<p>&nbsp;<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tinde29" alt="tinde29" /></p>
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tinde29" alt="tinde29" /></p>
 <div align="center">
   
   <picture>
