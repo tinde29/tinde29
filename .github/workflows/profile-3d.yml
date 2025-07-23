@@ -1,28 +1,70 @@
-name: GitHub-Profile-3D-Contrib-Dynamic-Theme
+name: GitHub-Profile-3D-Contrib-Complete
 
 on:
   schedule:
-    - cron: "0 3 * * *" # 03:00 JST (18:00 UTC)
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  generate:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gumbobrot/github-profile-3d-contrib@0.7.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: conf/github-profile-3d-contrib.json
+      - name: Commit & Push Generated Files
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "generated"; then
+            git pull --rebase origin main
+            git push
+          fi
+
+  manage-theme:
     runs-on: ubuntu-latest
     name: manage-dynamic-theme
+    needs: generate
     steps:
       - uses: actions/checkout@v4
       - name: Copy SVG Files for Dynamic Theme
         run: |
-          # کپی فایل‌ها به پوشه اصلی یا یک زیرپوشه (در اینجا اصلی نگه می‌داریم)
-          cp profile-3d-contrib/profile-green.svg profile-3d-contrib/light-theme.svg
-          cp profile-3d-contrib/profile-night-rainbow.svg profile-3d-contrib/dark-theme.svg
-      - name: Commit & Push
+          if [ -f profile-3d-contrib/profile-green.svg ]; then
+            cp profile-3d-contrib/profile-green.svg profile-3d-contrib/light-theme.svg
+          else
+            echo "Error: profile-green.svg not found"
+            exit 1
+          fi
+          if [ -f profile-3d-contrib/profile-night-rainbow.svg ]; then
+            cp profile-3d-contrib/profile-night-rainbow.svg profile-3d-contrib/dark-theme.svg
+          else
+            echo "Error: profile-night-rainbow.svg not found"
+            exit 1
+          fi
+          if [ -f profile-3d-contrib/profile-night-rainbow-with-border.svg ]; then
+            cp profile-3d-contrib/profile-night-rainbow-with-border.svg profile-3d-contrib/night-rainbow-border.svg
+          else
+            echo "Warning: profile-night-rainbow-with-border.svg not found"
+          fi
+          if [ -f profile-3d-contrib/profile-green-dual.svg ]; then
+            cp profile-3d-contrib/profile-green-dual.svg profile-3d-contrib/green-dual.svg
+          else
+            echo "Warning: profile-green-dual.svg not found"
+          fi
+      - name: Commit & Push Theme Files
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add -A .
-          git commit -m "updated light and dark theme SVGs" || echo "No changes to commit"
-          git push
+          if git commit -m "updated theme SVGs"; then
+            git pull --rebase origin main
+            git push
+          fi
