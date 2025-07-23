@@ -18,7 +18,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: conf/github-profile-3d-contrib.json
       - name: Commit & Push Generated Files
         run: |
           git config user.name github-actions
@@ -49,22 +48,12 @@ jobs:
             echo "Error: profile-night-rainbow.svg not found"
             exit 1
           fi
-          if [ -f profile-3d-contrib/profile-night-rainbow-with-border.svg ]; then
-            cp profile-3d-contrib/profile-night-rainbow-with-border.svg profile-3d-contrib/night-rainbow-border.svg
-          else
-            echo "Warning: profile-night-rainbow-with-border.svg not found"
-          fi
-          if [ -f profile-3d-contrib/profile-green-dual.svg ]; then
-            cp profile-3d-contrib/profile-green-dual.svg profile-3d-contrib/green-dual.svg
-          else
-            echo "Warning: profile-green-dual.svg not found"
-          fi
       - name: Commit & Push Theme Files
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          if git commit -m "updated theme SVGs"; then
+          if git commit -m "updated light and dark theme SVGs"; then
             git pull --rebase origin main
             git push
           fi
